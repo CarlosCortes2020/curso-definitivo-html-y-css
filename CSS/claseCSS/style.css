@@ -1,0 +1,16 @@
+/*Llamada por elemento*/
+p {
+    color: blue;
+    font-size: 50px;
+}
+
+/*Llamada por clase*/
+.parrafo {
+    color: red;
+}
+
+/*Llamada por ID*/
+#texto {
+    color: yellow;
+    font-size: 30px;    
+}
