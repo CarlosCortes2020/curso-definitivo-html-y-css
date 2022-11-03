@@ -1,0 +1,49 @@
+/*Con este codigo evitamos que se genere el scroll, se ajusta la pantalla*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Con este codigo hacemos uso de las medidas en rem*/
+html {
+    font-size: 62.5%;
+}
+
+/*Generacion de la caja flex y con opcion de autoajuste (wrap)*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Medidas iniciales para cada section div*/
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c4 {
+    height: auto;
+}
+
+.c1 {
+    background-color: blue;
+}
+
+.c2 {
+    background-color: rgb(39, 146, 233);
+}
+
+.c3 {
+    background-color: rgb(68, 226, 139);
+}
+
+.c4 {
+    background-color: rgb(160, 216, 149);
+}
+
+.c5 {
+    background-color: rgb(131, 52, 151);
+}
+

@@ -1,0 +1,19 @@
+/*Con este codigo evitamos que se genere el scroll, se ajusta la pantalla*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Con este codigo hacemos uso de las medidas en rem*/
+html {
+    font-size: 62.5%;
+}
+
+/*Generacion de la caja flex y con opcion de autoajuste (wrap)*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+}
+
